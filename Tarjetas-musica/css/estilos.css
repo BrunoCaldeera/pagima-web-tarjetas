@@ -1,0 +1,186 @@
+*{  
+margin: 0;
+padding: 0;
+}
+
+#piano {
+  width: 200px;
+  position: relative;
+  left: 20%;
+  top: 40px;
+}
+
+#titulo{
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  left: 43%;
+}
+
+#menu {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  position: relative;
+  left: 90%;
+  bottom: 100px;
+  list-style: none;
+}
+
+.btn{
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  height: 30px;
+  width: 70px;
+  background-color: burlywood;
+  color: brown;
+  position: relative;
+  left: 75%;
+  bottom: 220px;
+}
+
+#barra{
+  position: relative;
+  left: 30%;
+  bottom: 220px;
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#buscar {
+  position: relative;
+  left: 30%;
+  bottom: 220px;
+}
+
+#imagen1 {
+  width: 400px;
+  position: absolute;
+  left: 10%;
+  top: 35px;
+  border: 3px brown solid;
+  padding: 10px;
+}
+
+#tarjeta1{
+  background-image: url(../images/fondo.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  border: 5px black solid;
+  width: 500px;
+  height: 800px;
+  position: relative;
+  left: 5%;
+}
+
+#parrafo1{
+  width: 400px;
+  position: absolute;
+  color: brown;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  top: 300px;
+  left: 10%;
+  text-align: justify;
+}
+
+#enlace1 {
+  position: absolute;
+  top: 750px;
+  left: 40%;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px; }
+
+
+#imagen2{
+  width: 300px;
+  position: absolute;
+  left: 12%;
+  top: 30px;
+  border: 3px rgb(243, 92, 92) solid;
+  padding: 10px;
+
+}
+
+#tarjeta2{
+  background-image: url(../images/fondo2.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  border: 5px blue solid;
+  width: 500px;
+  height: 800px;
+  position: relative;
+  left: 38%;
+  bottom: 810px;
+}
+
+#parrafo2 {
+width: 400px;
+  position: absolute;
+  color: chocolate;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  top: 400px;
+  left: 10%;
+  text-align: justify;
+}
+
+#enlace2 {
+  position: absolute;
+  top: 750px;
+  left: 40%;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px; 
+}
+
+#formulario {
+  width: 30%;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#nombre {
+  margin-bottom: 10px;
+}
+#telefono{
+  margin-bottom: 10px;
+}
+#correo {
+  margin-bottom: 10px;
+}
+#nobianrio {
+ margin-bottom: 10px;
+}
+#dia {
+   margin-bottom: 10px;
+}
+#enviar {
+   margin-bottom: 10px;
+}
+
+.videos {
+  position: relative;
+  left: 10%;
+  bottom: 600px;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musica</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img 
+        id="piano" 
+        src="images/musica.jpg" 
+        alt="Musica">
+        <h1 id="titulo">
+            Genero del rock
+        </h1>
+        <nav>
+            <ul id="menu">
+                <li>
+                    sección 1
+                </li>
+                <li>
+                    sección 2
+                </li>
+                <li>
+                    seccipón 3 
+                </li>
+            </ul>
+        </nav>
+        <button class="btn"> ingresar</button>
+        <button class="btn"> registrar</button>
+        <input id="barra" type="text" placeholder="buscar">
+        <button id="buscar" class="btn" id="barra">buscar</button>
+       </header>
+    <main>
+        <section id="tarjeta1">
+            <img id="imagen1" src="images/bandas.jpg" alt="bandas de rock">
+            <p id="parrafo1" >
+                El rock es un género musical que surgió en Estados Unidos 
+                en la década de 1950 a partir de la fusión del rhythm and blues y el country.
+                 Se caracteriza por el uso de guitarras eléctricas, ritmos enérgicos y letras 
+                 que abordan temas sociales, políticos y personales. El rock ha evolucionado 
+                 a través de numerosos subgéneros, como el rock and roll, rockabilly, 
+                 hard rock, punk, grunge, metal, y rock alternativo, entre otros. 
+            </p>
+            <a id="enlace1" href="https://es.wikipedia.org/wiki/Rock">
+                conoce mas
+            </a>
+        </section>
+                    <div id="tarjeta2" >
+                       <img  id="imagen2" src="images/guitarra.jpg" alt="guitarra">
+                    <p id="parrafo2" >
+                        La guitarra, un instrumento musical de cuerda, 
+                        tiene una historia rica y compleja que se remonta a la antigüedad.
+                        Sus orígenes se encuentran en instrumentos similares de diversas culturas antiguas, 
+                        y a lo largo de los siglos, ha evolucionado y se ha adaptado a diferentes estilos musicales y tecnologías. 
+                    </p>
+                    <a id="enlace2" href="https://guitarrasgarridopozuelo.com/historia-de-la-guitarra/">
+                        conoce mas
+                    </a>
+                    </div>
+                    <video class="videos">
+                      <source src="video/top-20-canciones-de-heavy-metal-de-todos-los-tiempos.mp4"video/mp4" />
+                    </video>
+                    <iframe 
+                        
+                    src="https://www.youtube.com/embed/tny4ng9OGsc/?controls=0" 
+                    title="top 10 de bandas del rock"
+                    frameborder="0" 
+                    allow="acceleromeeter; autoplay; clipboard-write; encrypted-media; gyroscope;
+                    picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+                </main>
+                <footer>
+                   <form  id="formulario" action="" method="post">
+                    <fieldset>
+                    <legend>datos de contacto</legend>
+                    <label for="nombre">introduce tu nombre</label> <br />
+                    <input 
+                    type="text"
+                    id="nombre"
+                    placeholder="juan Perez Garcia"
+                    name="nombre"
+                    />
+                    <br />
+                    <label for="telefono">introduce tu numero telefonico</label> <br />
+                    <input 
+                    type="tel" 
+                    id="telefono" 
+                    placeholder="55 5555 5555" 
+                    name="numero" 
+                    />
+                    <br />
+                    <label for="correo">introduce tu correo electronico</label> <br />
+                    <input  
+                    type="email" 
+                    id="correo" 
+                    placeholder="mimail@ejemplo.com" 
+                    name="correo" 
+                    />
+                    <br />
+                    <label for="genero">introduce tu genero</label> <br />
+                    <input type="radio" id="femenino" value="femenino" name="genero" /> 
+                    <label for="femenino">femenino</label> <br />
+                    <input type="radio" id="masculino" value="masculino" name="genero" /> 
+                    <label for="masculino">masculino</label> <br />
+                    <h3>seleciona tus colores favoritos</h3>
+                    <label for="rojo">rojo</label>
+                    <input type="checkbox" id="rojo" name="color" />
+                    <label for="azul">azul</label>
+                    <input type="checkbox" id="azul" name="color" />
+                    <label for="verde">verde</label>
+                    <input type="checkbox" id="verde" name="color" />
+                    <h3>selecciona el dia</h3>
+                    <select name="día" id="day">
+                       <option value="lunes">lunes</option>
+                       <option value="martes">martes</option>
+                       <option value="miercoles">miercoles</option>
+                       <option value="jueves">jueves</option>
+                       <option value="viernes">viernes</option>
+                    </select> <br />
+                    <!--<input type"submit" /> -->
+                    <button>enviar</button>
+                </fieldset>
+                </form>    
+            </footer>
+        </body>
+    </html>
